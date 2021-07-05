@@ -567,13 +567,9 @@ div.caption a {
 	a:link {
 		color: #2eA8ff;
 	}
-
-	#nav ul li a:hover {
-		color: #e4e4e4;
-	}
-
-	#nav ul li a.current:hover {
-		color: #aaa;
+	
+		a:visited {
+		color: #2eA8ff;
 	}
 
 	.post-info .author a {
