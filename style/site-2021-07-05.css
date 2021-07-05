@@ -7,7 +7,7 @@ body {
 	padding-bottom: env(safe-area-inset-bottom);
 }
 
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, label, ul, ol, dl, fieldset, address {
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, label, ul, ol, dl, fieldset, address, dd {
     margin-bottom: 1em;
 }
 
@@ -18,10 +18,7 @@ ul li p {
 
 a {
 	color: #00a;
-}
-
-a:visited {
-	color: #af3192;
+	text-decoration: none;
 }
 
 iframe {
@@ -271,22 +268,6 @@ div.caption a {
 }
 
 @media only screen and (max-width: 480px) {
-	#nav ul li {
-		margin: 0;
-		padding: 0;
-		padding-right: 0.25em;
-	}
-
-	#nav ul li:last-child {
-		padding-right: 1em;
-	}
-
-	#nav ul li a {
-		font-size: 12px;
-		font-size: 3.5vw;
-		line-height: 12px;
-		line-height: 3.5vw;
-	}
 
 	h1 {
 		font-size: 22px;
@@ -585,10 +566,6 @@ div.caption a {
 	
 	a:link {
 		color: #2eA8ff;
-	}
-
-	a:visited {
-		color: #967eff;
 	}
 
 	#nav ul li a:hover {
