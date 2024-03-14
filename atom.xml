@@ -2,20 +2,20 @@
 <title>Trent Shell</title>
 <author>
 <name>Trent Shell</name>
-<uri>https://trentshell.com/home</uri>
+<uri>https://trentshell.com</uri>
 </author>
-<id>https://trentshell.com/home/</id>
+<id>https://trentshell.com</id>
 <link rel="self" type="application/atom+xml" href="https://trentshell.com/atom.xml"/>
-<link rel="alternate" type="text/html" href="https://trentshell.com/home"/>
+<link rel="alternate" type="text/html" href="https://trentshell.com"/>
 <updated>2024-03-14T00:00:00Z</updated>
 <entry>
-<title>Test Item for feed</title>
-<id>https:/trentshell.com/home</id>
-<link rel="alternate" href="https:/trentshell.com/home"/>
+<title>Welcome to the Feed</title>
+<id>https:/trentshell.com/</id>
+<link rel="alternate" href="https:/trentshell.com"/>
 <published>2024-03-14T00:00:00Z</published>
 <updated>2024-03-14T00:00:00Z</updated>
 <content type="html">
-<![CDATA[ <p>Hello, world!</p> ]]>
+<![CDATA[ <p>Thanks for subscribing.</p> ]]>
 </content>
 </entry>
 </feed>
