@@ -1,0 +1,38 @@
+body {
+    padding: 25px;
+    max-width: max-content;
+    margin: auto;
+    max-width: 75ch;
+
+    p {
+        font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    }
+
+    a {
+        color: #0069c2
+    }
+
+    a:visited {
+        color: #551a8b;
+    }
+}
+
+body>div {
+    margin: auto;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+
+        a {
+            color: #8cb4ff
+        }
+
+        a:visited {
+            color: #ffadff;
+        }
+    }
+}
