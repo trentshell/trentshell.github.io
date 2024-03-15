@@ -7,15 +7,15 @@
 <id>https://trentshell.com</id>
 <link rel="self" type="application/atom+xml" href="https://trentshell.com/atom.xml"/>
 <link rel="alternate" type="text/html" href="https://trentshell.com"/>
-<updated>2024-03-15T21:48:00Z</updated>
+<updated>2024-03-15T21:51:00Z</updated>
 <entry>
 <title>An Experiment With My Website</title>
 <id>https:/trentshell.com/experiment</id>
 <link rel="alternate" href="https:/trentshell.com"/>
 <published>2024-03-15T21:48:00Z</published>
-<updated>2024-03-15T21:48:00Z</updated>
+<updated>2024-03-15T21:51:00Z</updated>
 <content type="html">
-<![CDATA[ <blockquote cite="https://en.wikiquote.org/wiki/Donald_Knuth">
+<![CDATA[
 <blockquote cite="https://en.wikiquote.org/wiki/Donald_Knuth">
 <p>
 The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming
