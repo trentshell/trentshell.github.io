@@ -5,17 +5,27 @@ body {
     max-width: 75ch;
     font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
 
-    h1,h2,h3,h4,h5,h6 {
-font-family: system-ui, sans-serif;
+    blockquote {
+        border-left: 3px solid rgba(0, 0, 0, 0.1);
+        padding-left: 16px;
+        color: rgba(0, 0, 0, 0.65);
+        margin: 0px 2px;
     }
-    
+
+    hr {
+        background-color: rgb(220, 220, 220);
+        height: 1px;
+        border: 0;
+    }
+
     h1 {
         font-size: 24px;
+        margin-bottom: 5px;
     }
 
-
     a {
-        color: #0069c2
+        color: #0069c2;
+        text-decoration: none;
     }
 
     a:visited {
@@ -30,15 +40,27 @@ body>div {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: black;
-        color: white;
+        background: rgb(18, 18, 18);
+        color: rgb(176, 176, 176);
+
+        blockquote {
+            color: rgba(255, 255, 255, 0.6);
+            border-left-color: rgba(255, 255, 255, 0.15);
+        }
 
         a {
-            color: #8cb4ff
+            color: #8cb4ff;
+            text-decoration: none;
         }
 
         a:visited {
             color: #ffadff;
+        }
+        
+        hr {
+            background-color: rgb(62, 62, 62);
+            height: 1px;
+            border: 0;
         }
     }
 }
