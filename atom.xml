@@ -11,7 +11,7 @@
   <entry>
     <title>An Experiment With My Website</title>
     <id>https://trentshell.com/experiment</id>
-    <link rel="alternate" href="https://trentshell.com" />
+    <link rel="alternate" href="https://trentshell.com/experiment" />
     <published>2024-03-15T21:48:00Z</published>
     <updated>2024-03-19T16:08:00-06:00</updated>
     <content type="html"><![CDATA[<p>I'm rethinking how I want my personal website to be built and maintained. <a href="https://trentshell.com/experiment">Read the full entry here.</a></p>]]></content>
