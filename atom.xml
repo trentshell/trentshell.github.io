@@ -1,19 +1,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Trent Shell</title>
-  <author>
-    <name>Trent Shell</name>
-    <uri>https://trentshell.com</uri>
-  </author>
-  <id>https://trentshell.com/</id>
-  <link rel="self" type="application/atom+xml" href="https://trentshell.com/atom.xml" />
-  <link rel="alternate" type="text/html" href="https://trentshell.com" />
-  <updated>2024-03-19T16:08:00-06:00</updated>
-  <entry>
-    <title>An Experiment With My Website</title>
-    <id>https://trentshell.com/experiment</id>
-    <link rel="alternate" href="https://trentshell.com/experiment" />
-    <published>2024-03-15T21:48:00Z</published>
+    <title>Trent Shell</title>
+    <author>
+        <name>Trent Shell</name>
+        <uri>https://trentshell.com</uri>
+    </author>
+    <id>https://trentshell.com/</id>
+    <link rel="self" type="application/atom+xml" href="https://trentshell.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://trentshell.com"/>
     <updated>2024-03-19T16:08:00-06:00</updated>
-    <content type="html"><![CDATA[<p>I'm rethinking how I want my personal website to be built and maintained. <a href="https://trentshell.com/experiment">Read the full entry here.</a></p>]]></content>
-  </entry>
+    <entry>
+        <title>An Experiment With My Website</title>
+        <id>https://trentshell.com/experiment</id>
+        <link rel="alternate" href="https://trentshell.com/blog/experiment"/>
+        <published>2024-03-15T21:48:00Z</published>
+        <updated>2025-08-12T16:08:00-06:00</updated>
+        <content type="html">
+            <![CDATA[
+<blockquote cite="https://en.wikiquote.org/wiki/Donald_Knuth">
+    <p>
+        The real problem is that programmers have spent far too much time worrying about efficiency in the wrong
+        places and at the wrong times; premature optimization is the root of all evil (or at least most of it)
+        programming
+    </p>
+    <footer>—Donald Knuth, <cite>Computer Programming as an Art (1974)</cite></footer>
+</blockquote>
+<p>
+    So I’ve recently gotten the urge to tinker around with my website / blog (which really has only existed as a
+    development playground up to this point, seeing as I’ve only ever written a handful of small posts across the
+    years). The past several weeks I did a survey of the most popular website stacks — everything from the classic
+    (and overwhelming at this point) <a href="https://wordpress.org/">WordPress</a> platform to the <a
+        href="https://jekyllrb.com/">many</a> <a href="https://www.11ty.dev/">nerd</a> / <a
+        href="https://gohugo.io/">developer-centric</a> “markdown-to-static” site generators to newer contenders
+    like <a href="https://ghost.org/">Ghost</a>.
+</p>
+<p>
+    These are perfectly acceptable solutions in their own ways, but honestly, they all seem to have way more
+    features than I need (vastly increasing the layers of complexity when there is something that I <i>do</i> want
+    to tweak). Additionally, I’ve found that having a monolithic build system in place kind of shields me from what
+    I as a software developer want — a holistic understanding of everything that is happening when I write and
+    publish something online.
+</p>
+<p>
+    Of course, there is always going to be a certain level after which I no longer understand what’s happening.
+    Whatever intricate webserver code GitHub Pages is using to serve this page, and the CDN caching happening behind
+    the scenes is far beyond what I can look into for right now. But as a primarily web-centric software guy, I do
+    feel a strange sense of duty to be conscious of as many of the actual bits that I send up to the server as I
+    reasonably can.
+</p>
+<p>
+    To that end, I’ve embarked on a journey for trentshell.com to start from the ground up and only add a file as
+    it’s needed. As of this writing, I have an index.html file, this document I’ve written now, a shared styles.css
+    file, a CNAME file to configure the domain, and an atom.xml since an RSS subscription mechanism seems like table
+    stakes for any website which can be updated with new content. New posts will be added in bare HTML. No
+    templating, No build step, no Markdown conversion process. Of course, there may come a time when it makes sense
+    to add those features, but that decision will be made when I have more history to evaluate the real time /
+    efficiency tradeoff.
+</p>
+<p>
+    What do I hope to gain by typing angle brackets like an animal? A greater understanding of and attention to HTML
+    best practices and standard-compliant markup, for one. A quicker deployment process if I go for months without
+    touching this site again without needing to re-learn how to run whatever static site generator is being run
+    under the hood. Mostly, though? All the serious street-cred that will come by me telling people that I update my
+    website in the old-world, hand-crafted, artisanal manner.
+</p>
+      ]]>
+        </content>
+    </entry>
 </feed>
