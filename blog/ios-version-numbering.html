@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>An OS Version Number Suggestion for 2026 and Beyond</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Trent Shell">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<article>
+    <header>
+        <a href="../">Home</a> /
+        <a href="../blog">Blog</a>
+        <h1>An OS Version Number Suggestion for 2026 and Beyond</h1>
+        <time datetime="2025-08-12">August 12, 2025</time>
+        by <a href="../">Trent Shell</a>
+    </header>
+    <hr>
+    <p>
+        With its upcoming OS 26, Apple has finally synchronized all of its software platforms to share the same major
+        version number. I think that this will usher in a great opportunity for Apple-centric software developers to use
+        a version number strategy for their own applications which is able to impart more precise detail than most of
+        the existing strategies I see used today.
+    </p>
+    <p>
+        One caveat to all of this: I am not an iOS developer — just an average web dev who has overheard many
+        discussions surrounding this topic in podcasts over the years, so there may very well be points I haven't
+        considered.
+    </p>
+    <p>
+        If you are developing exclusively for Apple platforms, I think that it makes a lot of sense to use
+        <code>Major.Minor.Bugfix</code> pattern, but rather than waiting for a particular bundle of features to justify
+        bumping the
+        major version, consider matching the major version to the *earliest supported* version of the Apple OS. So, in
+        essence, if you are shipping an update which would require devices to have an OS version of 26 or greater, you
+        would number the build as <code>26.1.0</code>.
+    </p>
+    <p>
+        The benefits of this system would be that it's more in line with the principles of <a
+            href="https://semver.org/">semantic
+        versioning</a>, in that the first and most prominent value is to indicate a breaking change in
+        compatibility. Of course, that's not something most app <i>users</i> would know or care about, but seeing that
+        the
+        version number of an app is several numbers behind the OS that they're currently running could demonstrate a
+        developer's willingness to keep supporting older hardware.
+    </p>
+    <p>
+        It could potentially avoid the issue of using a purely date-based system (e.g., 2026.1.0), which looks ambiguous
+        as to whether the point release refers to the month or the sequential version number, and could lead some to
+        think the app hasn't been updated recently.
+    </p>
+    <p>
+        Of course, this is only going to be feasible in a few years when we can expect all of a given userbase for an
+        app to be running an OS version 26 or later, but I think that if I were ever to start dipping my toes into the
+        app development world, this is a strategy I'd consider.
+    </p>
+</article>
+</body>
+
+</html>

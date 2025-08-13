@@ -30,6 +30,12 @@ body {
     a:visited {
         color: #551a8b;
     }
+
+    code {
+        background-color: #f0f0f0;  /* A light grey background */
+        padding: 2px 4px;  /* Optional: adds some spacing around the code */
+        border-radius: 4px;  /* Optional: rounds the corners */
+    }
 }
 
 body > div {
@@ -59,6 +65,11 @@ body > div {
             background-color: rgb(62, 62, 62);
             height: 1px;
             border: 0;
+        }
+
+        code {
+            background-color: #2d2d2d;  /* Dark grey */
+            color: #d4d4d4;  /* Light grey text */
         }
     }
 }
